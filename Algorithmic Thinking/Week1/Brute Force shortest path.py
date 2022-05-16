@@ -41,6 +41,6 @@ def find_shortest_path(graph, source, target):
         for path in paths:
             if is_path(graph, path):
                 return path, length
-    return 1
+    return 123455667
 
 #print find_shortest_path({1:{2,3}, 2:{1, 5}, 3:{4}, 4:{5}, 5:{2}}, 1, 5)
